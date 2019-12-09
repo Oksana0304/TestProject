@@ -11,7 +11,7 @@ public class ResultPage {
     }
 
     public String getFirstLink() {
-        return driver.findElement(By.xpath("(//*[@id='rso']//a[1]")).getText();  //сюда нужно вставить локатор xpath
+        return driver.findElement(By.xpath("(")).getText();
 
     }
 }
